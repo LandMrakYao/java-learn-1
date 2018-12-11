@@ -9,6 +9,7 @@ public class HelloController {
     @GetMapping("/test")
     public String test(String id){
         System.out.println("hello");
+        System.out.println("world");
         return "test";
 
     }
